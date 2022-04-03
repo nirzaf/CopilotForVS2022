@@ -16,7 +16,7 @@ do
     WriteLine("Value of Division is " + calculator.Divide(input1, input2));
 
     WriteLine("Do you want to continue? (y/n)");
-    string input = ReadLine();
+    string? input = ReadLine();
     if (input == "y")
     {
         count++;
